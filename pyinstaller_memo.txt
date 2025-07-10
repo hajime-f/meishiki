@@ -1,0 +1,7 @@
+$ pip show customtkinter
+$ pyinstaller --onefile --noconsole --add-data "C:\Users\hajime-f\AppData\Local\Programs\Python\Python311\Lib\site-packages\customtkinter;customtkinter\" meishiki_gui.py
+
+f'{wareki}%-m月%-d日 %-H時%-M分生' -> f'{wareki}%#m月%#d日 %#H時%#M分生'
+
+html を配置
+

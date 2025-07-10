@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>御命式</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/reset2.css">
+<link rel="stylesheet" href="css/lp2.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="head">
+<dl>
+	<dt>{{ birthday }} {{ sex }}</dt>
+	<dd>御命式</dd>
+</dl>
+</div>
+
+
+
+<div class="cont_wrap">
+
+<div class="cont">
+
+<div class="cont_line cont_child_1">
+<div class="tate">
+<p>
+	<div class="time">年</div>
+	<div class="eto"><span>{{ tenkan1 }}</span><span>{{ chishi1 }}</span><span>{{ zokan1 }}</span></div>
+	<div class="txt">{{ fortune1 }}</div>
+</p>
+</div>
+<div class="furikana"><p class="item01">{{ tsuhen_tenkan1 }}</p><p class="item02">{{ tsuhen_zokan1 }}</p></div>
+</div>
+
+<div class="cont_line cont_child_2">
+<div class="tate">
+<p>
+	<div class="time">月</div>
+	<div class="eto"><span>{{ tenkan2 }}</span><span>{{ chishi2 }}</span><span>{{ zokan2 }}</span></div>
+	<div class="txt">{{ fortune2 }}</div>
+</p>
+</div>
+<div class="furikana"><p class="item01">{{ tsuhen_tenkan2 }}</p><p class="item02">{{ tsuhen_zokan2 }}</p></div>
+</div>
+
+<div class="cont_line cont_child_3">
+<div class="tate">
+<p>
+	<div class="time">日</div>
+	<div class="eto"><span>{{ tenkan3 }}</span><span>{{ chishi3 }}</span><span>{{ zokan3 }}</span></div>
+	<div class="txt">{{ fortune3 }}</div>
+</p>
+</div>
+<div class="furikana"><p class="item02">{{ tsuhen_zokan3 }}</p></div>
+</div>
+
+<div class="cont_line cont_child_4">
+<div class="tate">
+<p>
+	<div class="time">時</div>
+	<div class="eto"><span>{{ tenkan4 }}</span><span>{{ chishi4 }}</span><span>{{ zokan4 }}</span></div>
+	<div class="txt">{{ fortune4 }}</div>
+</p>
+</div>
+<div class="furikana"><p class="item01">{{ tsuhen_tenkan4 }}</p><p class="item02">{{ tsuhen_zokan4 }}</p></div>
+</div>
+
+</div>
+
+
+
+<div class="right_cont">
+
+<div class="right_cont_block">
+調候：{{ choko }}<br>
+空亡：{{ kubo }}<br>
+</div>
+<div class="right_cont_block2">
+木：{{ moku }}<br>
+火：{{ ka }}<br>
+土：{{ do }}<br>
+金：{{ gon }}<br>
+水：{{ sui }}
+</div>
+</div>
+</div>
+
+
+<div class="line">
+<div class="line_ttl">大運</div>
+<ul class="line_num">
+<li class="num_child_1">{{ p1 }}</li> 
+<li class="num_child_2">{{ p2 }}</li>
+<li class="num_child_3">{{ p3 }}</li>
+<li class="num_child_4">{{ p4 }}</li>
+<li class="num_child_5">{{ p5 }}</li>
+<li class="num_child_6">{{ p6 }}</li>
+<li class="num_child_7">{{ p7 }}</li>
+<li class="num_child_8">{{ p8 }}</li>
+<li class="num_child_9">{{ p9 }}</li>
+<li class="num_child_10">{{ p10 }}</li>
+<li class="num_child_11">{{ p11 }}</li>  
+</ul>
+
+<div class="yaji">
+	<img src="img/yaji.png">
+</div>
+<div class="line_content">
+	<dl class="line_child_1">
+		<dt>{{ d_tsuhen1 }}</dt>
+		<dd>{{ d_kan1 }}{{ d_shi1 }}</dd>
+	</dl>
+	<dl class="line_child_2">
+		<dt>{{ d_tsuhen2 }}</dt>
+		<dd>{{ d_kan2 }}{{ d_shi2 }}</dd>
+	</dl>
+	<dl class="line_child_3">
+		<dt>{{ d_tsuhen3 }}</dt>
+		<dd>{{ d_kan3 }}{{ d_shi3 }}</dd>
+	</dl>
+	<dl class="line_child_4">
+		<dt>{{ d_tsuhen4 }}</dt>
+		<dd>{{ d_kan4 }}{{ d_shi4 }}</dd>
+	</dl>
+	<dl class="line_child_5">
+		<dt>{{ d_tsuhen5 }}</dt>
+		<dd>{{ d_kan5 }}{{ d_shi5 }}</dd>
+	</dl>
+	<dl class="line_child_6">
+		<dt>{{ d_tsuhen6 }}</dt>
+		<dd>{{ d_kan6 }}{{ d_shi6 }}</dd>
+	</dl>
+	<dl class="line_child_7">
+		<dt>{{ d_tsuhen7 }}</dt>
+		<dd>{{ d_kan7 }}{{ d_shi7 }}</dd>
+	</dl>
+	<dl class="line_child_8">
+		<dt>{{ d_tsuhen8 }}</dt>
+		<dd>{{ d_kan8 }}{{ d_shi8 }}</dd>
+	</dl>
+	<dl class="line_child_9">
+		<dt>{{ d_tsuhen9 }}</dt>
+		<dd>{{ d_kan9 }}{{ d_shi9 }}</dd>
+	</dl>
+	<dl class="line_child_10">
+		<dt>{{ d_tsuhen10 }}</dt>
+		<dd>{{ d_kan10 }}{{ d_shi10 }}</dd>
+	</dl>
+</div>
+</div>
+
+
+
+<div class="line second">
+<div class="line_ttl">年運</div>
+<ul class="line_num">
+<li class="num_child_1">{{ n1 }}</li> 
+<li class="num_child_2">{{ n2 }}</li>
+<li class="num_child_3">{{ n3 }}</li>
+<li class="num_child_4">{{ n4 }}</li>
+<li class="num_child_5">{{ n5 }}</li>
+<li class="num_child_6">{{ n6 }}</li>
+<li class="num_child_7">{{ n7 }}</li>
+<li class="num_child_8">{{ n8 }}</li>
+<li class="num_child_9">{{ n9 }}</li>
+<li class="num_child_10">{{ n10 }}</li>
+<li class="num_child_11">{{ n11 }}</li>
+</ul>
+
+<div class="yaji">
+	<img src="img/yaji.png">
+</div>
+<div class="line_content">
+	<dl class="line_child_1">
+		<dt>{{ n_tsuhen1 }}</dt>
+		<dd>{{ n_kan1 }}{{ n_shi1 }}</dd>
+	</dl>
+	<dl class="line_child_2">
+		<dt>{{ n_tsuhen2 }}</dt>
+		<dd>{{ n_kan2 }}{{ n_shi2 }}</dd>
+	</dl>
+	<dl class="line_child_3">
+		<dt>{{ n_tsuhen3 }}</dt>
+		<dd>{{ n_kan3 }}{{ n_shi3 }}</dd>
+	</dl>
+	<dl class="line_child_4">
+		<dt>{{ n_tsuhen4 }}</dt>
+		<dd>{{ n_kan4 }}{{ n_shi4 }}</dd>
+	</dl>
+	<dl class="line_child_5">
+		<dt>{{ n_tsuhen5 }}</dt>
+		<dd>{{ n_kan5 }}{{ n_shi5 }}</dd>
+	</dl>
+	<dl class="line_child_6">
+		<dt>{{ n_tsuhen6 }}</dt>
+		<dd>{{ n_kan6 }}{{ n_shi6 }}</dd>
+	</dl>
+	<dl class="line_child_7">
+		<dt>{{ n_tsuhen7 }}</dt>
+		<dd>{{ n_kan7 }}{{ n_shi7 }}</dd>
+	</dl>
+	<dl class="line_child_8">
+		<dt>{{ n_tsuhen8 }}</dt>
+		<dd>{{ n_kan8 }}{{ n_shi8 }}</dd>
+	</dl>
+	<dl class="line_child_9">
+		<dt>{{ n_tsuhen9 }}</dt>
+		<dd>{{ n_kan9 }}{{ n_shi9 }}</dd>
+	</dl>
+	<dl class="line_child_10">
+		<dt>{{ n_tsuhen10 }}</dt>
+		<dd>{{ n_kan10 }}{{ n_shi10 }}</dd>
+	</dl>
+</div>
+</div>
+
+</div>
+</body>
+</html>

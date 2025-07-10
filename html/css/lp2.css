@@ -1,0 +1,317 @@
+
+:root {
+  font-size: 10px;
+}
+body {
+  line-height: 1.5;
+  color: #000;
+  font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+.test {
+  text-align: center;
+  font-size: 3rem;
+
+}
+.wrap {
+  padding: 50px 0 80px;
+}
+.head {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.head dl dt{
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.head dl dd{
+  font-size: 3rem;
+  margin-left: 2.45rem;
+  margin-bottom: 10px;
+  letter-spacing: 3rem;
+}
+
+.cont_wrap {
+  overflow: hidden;
+  width: 630px;
+  margin: 0 auto 130px;
+
+}
+.cont {
+  float: left;
+  width: 440px;
+  display: flex;
+}
+.cont_line {
+  width: 25%;
+  text-align: center;
+}
+
+.cont_child_1{
+  order: 4;
+}
+.cont_child_2{
+  order: 3;
+}
+.cont_child_3{
+  order: 2;
+}
+.cont_child_4{
+  order: 1;
+}
+
+.tate {
+  width: 46px;
+  height: 314px;
+
+  margin: 0 auto;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -o-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright; /* すべて縦方向に表示 */
+}
+.tate .time {
+  font-size: 2.1rem;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+.tate .eto {
+  font-size: 3.2rem;
+  display: inline-block;
+}
+
+.tate .eto span {
+  margin: 0 0 4.2rem;
+}
+.tate .txt {
+  font-size: 2.1rem;
+  display: inline-block;
+}
+.cont_line {
+  position: relative;
+}
+.cont_line p {
+  font-size: 1.6rem;
+}
+.furikana {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -o-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright; /* すべて縦方向に表示 */
+}
+
+.furikana p.item01 {
+  position: absolute;
+  top: 60px;
+  right: 13px;
+  letter-spacing: 0.3rem;
+}
+.furikana p.item02 {
+  position: absolute;
+  bottom: 70px;
+  right: 13px;
+  letter-spacing: 0.3rem;
+}
+
+
+.right_cont {
+  float: right;
+  width: 140px;
+  padding-top: 50px;
+
+}
+.right_cont_block {
+  font-size: 2rem;
+  letter-spacing: .25rem;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.right_cont_block2 {
+  font-size: 1.9rem;
+  letter-spacing: .5rem;
+  line-height: 1.25;
+}
+
+
+.main {
+  overflow: hidden;
+
+  max-width: 780px;
+  margin: 0 auto;
+
+}
+.main table.block {
+  float: right;
+  width: 25%;
+}
+
+
+
+.line {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto 100px;
+}
+.line .line_ttl {
+  position: absolute;
+  top: 20px;
+  right: -25px;
+  font-size: 1.6rem;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -o-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright; /* すべて縦方向に表示 */
+ letter-spacing: 0.5rem;
+}
+
+.line .yaji {
+  margin: 5px 0;
+}
+
+.line_num {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 0 22px 0 13px;
+}
+
+.line_num li {
+  text-align: center;
+  position: relative;
+  width: 3rem;
+}
+.line_num li.num_child_1 span{
+  position: absolute;
+  left: 11px;
+}
+
+
+
+.line.second {
+  margin-bottom: 0;
+}
+
+.line.second .line_num {
+  /*
+  padding: 0 35px 0 20px;
+  */
+}
+
+.num_child_1{
+  order: 11;
+}
+.num_child_2{
+  order: 10;
+}
+.num_child_3{
+  order: 9;
+}
+.num_child_4{
+  order: 8;
+}
+.num_child_5{
+  order: 7;
+}
+.num_child_6{
+  order: 6;
+}
+.num_child_7{
+  order: 5;
+}
+.num_child_8{
+  order: 4;
+}
+.num_child_9{
+  order: 3;
+}
+.num_child_10{
+  order: 2;
+}
+.num_child_11{
+  order: 1;
+}
+
+.line .line_content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 35px 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line .line_content dl {
+  width: 10%;
+  padding-right: 5px;
+}
+
+.line_child_1{
+  order: 10;
+}
+
+.line_child_2{
+  order: 9;
+}
+.line_child_3{
+  order: 8;
+}
+.line_child_4{
+  order: 7;
+}
+.line_child_5{
+  order: 6;
+}
+.line_child_6{
+  order: 5;
+}
+.line_child_7{
+  order: 4;
+}
+.line_child_8{
+  order: 3;
+}
+.line_child_9{
+  order: 2;
+}
+.line_child_10{
+  order: 1;
+}
+
+
+
+.line .line_content dl {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -o-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright; /* すべて縦方向に表示 */
+  line-height: 1.3;
+ letter-spacing: 0.3rem;
+}
+
+
+dt {
+  font-size: 1.1rem;
+}
+dd {
+  font-size: 2rem;
+  letter-spacing: 0.6rem;
+}
+
